@@ -1,0 +1,192 @@
+# =====================
+#  Gradle Build System
+# =====================
+.gradle/
+.gradle
+/build/
+build/
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =====================
+#  Android / Build Artifacts
+# =====================
+*.iml
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.o
+/app/build/
+/*/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.so
+*.a
+*.o
+
+# =====================
+#  IDE - Android Studio / IntelliJ IDEA
+# =====================
+.idea/
+.idea/caches/
+.idea/codeStyles/
+.idea/copyright/
+.idea/dictionaries/
+.idea/encodings.xml
+.idea/fileTemplates/
+.idea/fileTypes.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/navEditor.xml
+.idea/scopes/
+.idea/shelf/
+.idea/assetWizardSettings.xml
+.idea/workspace.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/render.experimental.xml
+.idea/runConfigurations/
+*.iml
+*.iws
+*.ipr
+.gradle
+
+# =====================
+#  Firebase & Google Services
+# =====================
+google-services.json
+**/google-services.json
+
+# =====================
+#  API Keys & Security
+# =====================
+local.properties
+keystore.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+secrets.properties
+.env
+.env.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# =====================
+#  Signing Configs
+# =====================
+signing.jks
+signing-key.jks
+release.keystore
+
+# =====================
+#  Operating System Files
+# =====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.directory
+
+# =====================
+#  Logs & Temporary Files
+# =====================
+*.log
+*.logs
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.~*
+*.bak
+*.backup
+
+# =====================
+#  Emulator & Testing
+# =====================
+.emulator-console-auth-token
+emulator.ini
+emulator-settings.ini
+
+# =====================
+#  Lint & Analysis
+# =====================
+lint-results*.xml
+lint-results*.html
+reports/
+proguard/mapping.txt
+
+# =====================
+#  User-specific settings
+# =====================
+local.properties
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.classpath
+.project
+.settings/
+
+# =====================
+#  Gradle Daemon
+# =====================
+.gradle-daemon
+
+# =====================
+#  Built application files
+# =====================
+*.manifest
+*.class
+*.jar
+
+# =====================
+#  Mac specific
+# =====================
+.AppleDouble
+.LSOverride
+
+# =====================
+#  Linux specific
+# =====================
+.nfs*
+
+# =====================
+#  Android Test Coverage
+# =====================
+coverage/
+jacoco.exec
+*.xml
+!app/src/**/*.xml
+
+# =====================
+#  Dependency/Maven
+# =====================
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# =====================
+#  Misc
+# =====================
+*.bak
+*.bat.bak
+.git-bak

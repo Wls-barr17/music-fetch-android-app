@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TITLE -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- SEARCH FIELD -->
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar en favoritos..."
+        android:background="@drawable/text_style"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- SEARCH BUTTON -->
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RECYCLER VIEW -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonBackToSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar más canciones"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="12dp"/>
+
+    <!-- LOGOUT BUTTON -->
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
