@@ -1,6 +1,6 @@
 # Music App 🎵
 
-A modern Android music streaming application built with Android Material Design, Firebase, and Firestore.
+A modern Android music fetchin application built with Android Material Design, Firebase, and Firestore.
 
 ## Features
 
@@ -70,8 +70,8 @@ MusicAPP/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/MusicAPP.git
-cd MusicAPP
+git clone https://github.com/Wls-barr17/music-fetch-android-app.git
+cd music-fetch-android-app
 ```
 
 ### 2. Firebase Configuration
@@ -125,20 +125,7 @@ gradlew.bat installDebug
 - **app/google-services.json** - Firebase configuration (excluded from git)
 - **keystore files** - For signing releases (excluded from git)
 
-## Security Considerations
 
-- Never commit `google-services.json` or API keys to version control
-- Use `.gitignore` to exclude sensitive files
-- Keep `local.properties` and keystore files private
-- Use Firebase Security Rules to protect Firestore data
-
-## Development Guidelines
-
-- Follow Android Jetpack guidelines
-- Use AndroidX libraries consistently
-- Implement proper error handling for network requests
-- Test on multiple Android versions (API 24+)
-- Use ProGuard for release builds to optimize APK size
 
 ## API Integration
 
@@ -177,16 +164,13 @@ For support, email support@musicapp.com or open an issue in the GitHub repositor
 
 ## Authors
 
-- **Your Name** - Initial work
+- **Wilson B** - Initial work
 
 ## Changelog
 
-### Version 1.0
+### Version 1.4
 - Initial release
 - Firebase authentication
 - Music streaming functionality
 - Firestore integration
 
----
-
-**Last Updated**: April 24, 2026
