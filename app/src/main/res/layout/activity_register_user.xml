@@ -17,37 +17,71 @@
             android:layout_height="120dp"
             android:layout_gravity="center"
             android:src="@drawable/logo"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="24dp"/>
+
+        <!-- NOMBRE -->
 
         <EditText
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:hint="Nombre"
-            android:layout_marginBottom="12dp"/>
+
+            android:background="@drawable/text_style"
+
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+
+            android:padding="12dp"
+
+            android:layout_marginBottom="16dp"/>
+
+        <!-- EMAIL -->
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:hint="Email"
-            android:layout_marginBottom="12dp"/>
+
+            android:background="@drawable/text_style"
+
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+
+            android:padding="12dp"
+
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PASSWORD -->
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:hint="Password"
             android:inputType="textPassword"
-            android:layout_marginBottom="16dp"/>
 
-        <!-- RADIO BUTTONS -->
+            android:background="@drawable/text_style"
+
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+
+            android:padding="12dp"
+
+            android:layout_marginBottom="20dp"/>
+
+        <!-- GENERO -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Genero"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:layout_marginBottom="8dp"/>
 
         <RadioGroup
@@ -61,13 +95,19 @@
                 android:id="@+id/radioMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masculino"/>
+                android:text="Masculino"
+
+                android:textColor="@color/white"
+                android:buttonTint="@color/blue_primary"/>
 
             <RadioButton
                 android:id="@+id/radioFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Femenino"/>
+                android:text="Femenino"
+
+                android:textColor="@color/white"
+                android:buttonTint="@color/blue_primary"/>
 
         </RadioGroup>
 
@@ -78,32 +118,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estudiante"
-            android:layout_marginBottom="16dp"/>
 
-        <!-- SPINNER -->
+            android:textColor="@color/white"
+            android:buttonTint="@color/blue_primary"
 
-        <Spinner
-            android:id="@+id/spinnerCountry"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"/>
 
-        <!-- BUTTON -->
+        <!-- BOTON REGISTRAR -->
 
         <Button
             android:id="@+id/Btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:text="REGISTRAR"
             android:textColor="@color/white"
-            android:background="@drawable/button_style"/>
+
+            android:background="@drawable/button_style"
+
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BOTON LOGIN -->
 
         <Button
             android:id="@+id/Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:text="IR AL LOGIN"
             android:textColor="@color/white"
+
             android:background="@drawable/button_style"/>
 
     </LinearLayout>

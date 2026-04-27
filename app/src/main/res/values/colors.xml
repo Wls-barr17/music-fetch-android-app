@@ -10,7 +10,7 @@
     <color name="black">#000000</color>
 
     <!-- Fondo difuminado -->
-    <color name="background_start">#FFFFFF</color>
-    <color name="background_end">#E3F2FD</color>
+    <color name="background_start">#0A0A0A</color>
+    <color name="background_end">#1A1A1A</color>
 
 </resources>

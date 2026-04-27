@@ -1,9 +1,54 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MusicAPP" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Base.Theme.MusicAPP"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">
+            @drawable/background_gradient
+        </item>
+
+        <item name="android:textColorHint">
+            @color/black
+        </item>
+
+        <item name="colorPrimary">
+            @color/blue_primary
+        </item>
+
+        <item name="colorSecondary">
+            @color/blue_light
+        </item>
+
+        <item name="colorSurface">
+            @color/black
+        </item>
+
+        <item name="android:textColor">
+            @color/white
+        </item>
+
     </style>
 
-    <style name="Theme.MusicAPP" parent="Base.Theme.MusicAPP" />
+    <style name="Theme.MusicAPP"
+        parent="Base.Theme.MusicAPP" />
+
+    <!-- ESTE ES EL QUE FALTABA -->
+
+    <style name="Theme.MusicAPP.Splash"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_music
+        </item>
+
+        <item name="windowSplashScreenBackground">
+            @color/black
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.MusicAPP
+        </item>
+
+    </style>
+
 </resources>
